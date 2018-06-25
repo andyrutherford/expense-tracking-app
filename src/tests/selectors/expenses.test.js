@@ -6,6 +6,7 @@ import expenses from '../fixtures/expenses';
 test('should filter by text value', () => {
     const filters = {
         text: 'r',
+        sortByCategory: '',
         sortBy: 'date',
         startDate: undefined,
         endDate: undefined
@@ -20,6 +21,7 @@ test('should filter by text value', () => {
 test('should filter by start date', () => {
     const filters = {
         text: '',
+        sortByCategory: '',
         sortBy: 'date',
         startDate: moment(0),
         endDate: undefined
@@ -34,6 +36,7 @@ test('should filter by start date', () => {
 test('should filter by end date', () => {
     const filters = {
         text: '',
+        sortByCategory: '',
         sortBy: 'date',
         startDate: undefined,
         endDate: moment(0)
@@ -48,6 +51,7 @@ test('should filter by end date', () => {
 test('should sort by date', () => {
     const filters = {
         text: '',
+        sortByCategory: '',
         sortBy: 'date',
         startDate: undefined,
         endDate: undefined
@@ -63,6 +67,7 @@ test('should sort by date', () => {
 test('should sort by amount', () => {
     const filters = {
         text: '',
+        sortByCategory: '',
         sortBy: 'amount',
         startDate: undefined,
         endDate: undefined
