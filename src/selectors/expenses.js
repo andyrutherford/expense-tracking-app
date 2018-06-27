@@ -11,8 +11,6 @@ export default (expenses, { text, sortByCategory, sortBy, startDate, endDate }) 
             return startDateMatch && endDateMatch && textMatch;
         })
         .filter((expense) => {
-            console.log(expense.category);
-            console.log(sortByCategory);
             if (sortByCategory === 'any') {
                 return true;
             }
