@@ -6,7 +6,6 @@ import Header from './Header';
 
 const ExpenseDashboardPage = () => (
     <div>
-        <Header />
         <ExpenseListFilters />
         <ExpenseSummary />
         <ExpenseList />
