@@ -5,9 +5,9 @@ import ExpenseSummary from './ExpenseSummary';
 import Header from './Header';
 
 const ExpenseDashboardPage = () => (
-    <div>
-        <ExpenseListFilters />
+    <div>  
         <ExpenseSummary />
+        <ExpenseListFilters />
         <ExpenseList />
     </div>
 );
