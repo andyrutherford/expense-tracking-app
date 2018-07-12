@@ -1,5 +1,5 @@
 {
-  "name": "expensify",
+  "name": "CashCount",
   "version": "1.0.0",
   "description": "expense tracking app",
   "main": "index.js",
