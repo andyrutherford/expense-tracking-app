@@ -26,9 +26,6 @@
     &:hover {
         background: $off-white;
     }
-    .category {
-        font-style: italic;
-    }
     @media (min-width: $desktop-breakpoint) {
         align-items: center;
         flex-direction: row;
@@ -55,6 +52,12 @@
 .list-item__sub-title {
     color: $grey;
     font-size: $font-size-small;
+}
+
+.list-item__category {
+    color: $grey;
+    font-size: $font-size-small;
+    font-style: italic;
 }
 
 .list-item__data {

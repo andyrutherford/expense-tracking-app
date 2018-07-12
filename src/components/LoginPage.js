@@ -10,7 +10,7 @@ export const LoginPage = ( { startLogin } ) => (
             <button
                 className="button"
                 onClick={startLogin}
-            >Login with Google</button>
+            >Login with Google &nbsp;<img className="button__icon" src="images/google.png" /></button>
         </div>
     </div>
 );
