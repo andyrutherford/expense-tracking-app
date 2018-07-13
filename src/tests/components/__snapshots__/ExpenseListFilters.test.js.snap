@@ -29,7 +29,7 @@ exports[`should render ExpenseListFilters correctly 1`] = `
         <option
           value="any"
         >
-          All Categories
+          Category
         </option>
         <option
           value="personal"
@@ -188,7 +188,7 @@ exports[`should render ExpenseListFilters with alt data correctly 1`] = `
         <option
           value="any"
         >
-          All Categories
+          Category
         </option>
         <option
           value="personal"

@@ -10,7 +10,7 @@ exports[`should render LoginPage correctly 1`] = `
     <h1
       className="box-layout__title"
     >
-      Expense Tracking App
+      CashCount
     </h1>
     <p>
       Take control of your expenses.
@@ -18,7 +18,11 @@ exports[`should render LoginPage correctly 1`] = `
     <button
       className="button"
     >
-      Login with Google
+      Login with Google  
+      <img
+        className="button__icon"
+        src="images/google.png"
+      />
     </button>
   </div>
 </div>

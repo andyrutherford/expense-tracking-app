@@ -21,6 +21,9 @@
 }
 
 .box-layout__title {
+    font-size: $font-size-xl; 
+    font-family: $logo-font;
+    font-weight: 100;
     margin: 0 0 $m-size 0;
     line-height: 1;
 }
